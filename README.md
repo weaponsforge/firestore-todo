@@ -4,8 +4,30 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+With reference from [**Getting started with react-redux-firebase**](https://blog.logrocket.com/getting-started-react-redux-firebase/).
+
+### Prerequisites
+
+1. Firebase project
+	- with Google Sign-In enabled in the Firebase Authentication section
+
+2. yarn
+	- version 1.19.1 was used for this project
+
 @weaponsforge  
 20200813
+
+
+## Installation
+
+1. Clone this repository.  
+`https://github.com/weaponsforge/firestore-todo.git`
+
+2. Copy your firebase project's settings in:  
+`/src/firebase/firebase.config.js`
+
+3. Run the app.  
+`yarn start`
 
 
 ## Available Scripts
@@ -39,8 +61,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.

@@ -1,0 +1,12 @@
+const firebaseConfig = {
+  apiKey: '<YOUR_FIREBASE_CONFIG_APIKEY>',
+  authDomain: 'YOUR_FIREBASE_CONFIG_AUTHDOMAIN',
+  databaseURL: 'YOUR_FIREBASE_CONFIG_DATABASEURL',
+  projectId: 'YOUR_FIREBASE_CONFIG_PROJECTID',
+  storageBucket: 'YOUR_FIREBASE_CONFIG_STORAGE_BUCKET',
+  messagingSenderId: 'YOUR_FIREBASE_CONFIG_MESSAGING_SENDER_ID',
+  appId: 'YOUR_FIREBASE_CONFIG_APPID',
+  measurementId: 'YOUR_FIREBASE_CONFIG_MEASUREMENT_ID'
+}
+
+export default firebaseConfig
