@@ -26,6 +26,9 @@ With reference from [**Getting started with react-redux-firebase**](https://blog
 2. Copy your firebase project's settings in:  
 `/src/firebase/firebase.config.js`
 
+3. Install dependencies.  
+`yarn install`
+
 3. Run the app.  
 `yarn start`
 
